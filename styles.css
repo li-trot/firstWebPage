@@ -1,1 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 
+header {
+  background-color: #333333;
+  width: 100%;
+  height: 40px;
+}
