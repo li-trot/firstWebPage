@@ -33,3 +33,63 @@ main {
   font-size: 4rem;
   font-family:
 }
+
+h1, h2, h3, dt {
+  font-family: 'Hanuman', serif;
+}
+
+dd, p, li {
+  font-family: 'Inconsolata', monospace;
+}
+
+h1 {
+  color: black;
+  font-size: 38px;
+  text-align: left;
+}
+
+p {
+  margin: 50px;
+  width: 75%;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h3 {
+  color: #ff0099;
+  font-size: 30px;
+  text-align: left;
+} 
+
+hr {
+  border-top: dashes black 2px;
+  width: 9px;
+}
+
+h2 {
+  color: black;
+  font-size: 34px;
+  text-align: center;
+}
+
+dl {
+  margin: 50px;
+}
+
+dt {
+  font-weight: bold;
+  fnt-size: 30px;
+  text-align: left;
+}
+
+dd {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+
+
+
+
+
