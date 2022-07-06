@@ -6,12 +6,13 @@
 
 body {
 min-width: 35rem;
-background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/topography.png);
+background-image: url("assets/background.png");
 overflow: scroll;
+width: 100%;
 }
 
 h1, h2, h3, dt {
-  font-family: 'Hanuman', serif;
+  font-family: 'Hanuman', courier, serif;
 } 
 
 header {
@@ -21,7 +22,7 @@ header {
 }
 
 dd, p, li {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', consolas, monospace;
   font-size: 1.2rem;
   line-height: 1.2rem;
   font-weight: bolder;
@@ -39,8 +40,11 @@ a img {
   margin: 0.5rem 0 0.5rem 3rem;
 }
 
+nav {
+  display: inline;
+}
+
 ul {
-display: inline;
 list-style-type: none;
 float: right;
 margin-right: 3rem;
@@ -61,9 +65,8 @@ li a:visited, li a:link {
 }
 
 section {
-  max-width: 60rem;
-  width: 80%;
-  margin: 1rem auto;
+  width: 100%;
+  padding: 0 10%  0;
   text-align: justify;
 }
 
@@ -81,10 +84,8 @@ h3 {
 } 
 
 hr {
-  height: 2px;
-  overflow: hidden;
-  border-top: 2rem dashed #333333;
-  width: 5rem;
+  border-top: 0.5rem dashed #333333;
+  width: 4rem;
   margin: 4rem auto;
 }
 
@@ -96,15 +97,15 @@ h2 {
 }
 
 main {
-  max-width: 60rem;
-  width: 80%;
-  margin: 1rem auto;
+  width: 100%;
+  padding: 0 10%;
   text-align: center;
   color: black;
 }
 
 
 dt {
+  color: #333333;
   font-weight: bold;
   font-size: 1.5rem;
   text-align: left;
@@ -113,11 +114,7 @@ dt {
 }
 
 dd {
-  font-size: 1rem;
-  line-height: 1.5rem;
   text-align: justify;
 }
-
-
 
 
