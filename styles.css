@@ -1,9 +1,35 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #333333;
   width: 100%;
   height: 40px;
+}
+
+ul {
+  display: inline;
+  color: #ff0099;
+}
+
+#logo {
+  width: auto;
+  height: 35px;
+  align: right;
+  margin-right: 15px;
+}
+
+li {
+  align: left;
+  margin-left: 15px;
+}
+
+main {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  font-family:
 }
